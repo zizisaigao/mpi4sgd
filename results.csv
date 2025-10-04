@@ -1,0 +1,2 @@
+activ,batch,hidden,procs,train_rmse,test_rmse,time_sec
+sigmoid,128,32,4,0.0000309373,0.0001798486,122.50

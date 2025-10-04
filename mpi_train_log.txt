@@ -1,0 +1,47 @@
+=== MPI Training Experiment Started ===
+Time: Fri Oct  3 14:50:48 CST 2025
+Activation functions: sigmoid relu tanh
+Batch sizes: 128 256 512 1024 2048
+Hidden sizes: 32
+Number of processes: 4
+Number of epochs: 20
+========================================
+
+>>> running: activ=sigmoid, batch=128, hidden=32, procs=4
+Start time: Fri Oct  3 14:50:48 CST 2025
+learning rate: 0.01
+----------------------------------------
+✅ Successfully completed
+[DEBUG] y_train: min=0.0000, max=1.0000, mean=0.0021, std=0.0019
+[DEBUG] y_test:  min=0.0000, max=40.0975, mean=0.0021, std=0.0178
+[INFO] Train set (26194981, 10) Test set (11226421, 10)
+Epoch   1  R(θ) = 0.000141225435
+Epoch   2  R(θ) = 0.000015450411
+Epoch   3  R(θ) = 0.000007577324
+Epoch   4  R(θ) = 0.000004833097
+Epoch   5  R(θ) = 0.000003796858
+Epoch   6  R(θ) = 0.000003382506
+Epoch   7  R(θ) = 0.000003204784
+Epoch   8  R(θ) = 0.000003121108
+Epoch   9  R(θ) = 0.000003076700
+Epoch  10  R(θ) = 0.000003049677
+Epoch  11  R(θ) = 0.000003030841
+Epoch  12  R(θ) = 0.000003016119
+Epoch  13  R(θ) = 0.000003003592
+Epoch  14  R(θ) = 0.000002992300
+Epoch  15  R(θ) = 0.000002981747
+Epoch  16  R(θ) = 0.000002971655
+Epoch  17  R(θ) = 0.000002961896
+Epoch  18  R(θ) = 0.000002952371
+Epoch  19  R(θ) = 0.000002943032
+Epoch  20  R(θ) = 0.000002933845
+[INFO] Training time 122.50 s
+[RESULT] Train RMSE = 0.0000309373
+[RESULT] Test RMSE = 0.0001798486
+20
+[INFO] loss curves have been saved. → figures/mpi_loss_*.png
+
+>>> running: activ=sigmoid, batch=256, hidden=32, procs=4
+Start time: Fri Oct  3 15:02:12 CST 2025
+learning rate: 0.02
+----------------------------------------
