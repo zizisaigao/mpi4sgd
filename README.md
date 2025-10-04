@@ -1,6 +1,6 @@
 # 🚕 DSA5208 Project 1: MPI Parallel Neural Network Training (New York Taxi Data)
 
-> Use MPI to parallelize model training on the large-scale New York taxi dataset `nytaxi2022.csv`, supporting batch experiments with multiple parameter combinations.
+> Use MPI to parallelize model training on the large-scale New York taxi dataset `nytaxi2022.csv`, supporting batch experiments with multiple parameter combinations. You can find a dataset version on kaggle(https://www.kaggle.com/datasets/diishasiing/revenue-for-cab-drivers), the real dataset used in the project similar to that one but much larger.
 
 ---
 
@@ -69,4 +69,5 @@ hostfile
 README.md
 results.csv
 run_all_mpi.sh
+
 ```
